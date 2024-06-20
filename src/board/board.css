@@ -1,0 +1,65 @@
+#reversiBoard {
+    border: 3px solid;
+    background-color: rgba(165, 108, 42, 0.731);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 400px;
+}
+
+#reversiBoard caption {
+    color: rgb(72, 239, 72);
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#reversiBoard td {
+    border: 1px solid;
+    height: 62px;
+    padding: 10px;
+    min-width: 62px;
+}
+
+#reversiBoard td > div {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 40px;
+    margin: auto;
+    width: 40px;
+}
+
+.move{
+    border-color: rgb(0, 255, 76);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.white{
+    background-color: white;
+
+}
+
+.black{
+    background-color: black;
+}
+
+#scoreboard {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 700px;
+    font-family: 'Poppins';
+}
+
+#scoreboard span:nth-child(2) {
+    color: rgb(192, 177, 21);
+}
+
+#scoreboard span:last-child {
+    color: white;
+}

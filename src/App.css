@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background: radial-gradient(circle, #4054ac 30%, rgb(48, 20, 86));
+    overflow: hidden;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#container > .games {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container > .games img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 100px 0;
+    transition: all 0.7s;
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+}
+
+
+#container > .games img:hover {
+    transform: scale(1.2);
+}
+
+audio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
